@@ -331,3 +331,62 @@ errorMessage.push("Enter at least one uppercase letter");
 function removeReview(){
   document.getElementById("showInput").innerHTML = "";
 }
+
+function showAlert(){
+  var alertBox = document.getElementById("alert-box");
+  var closeAlert = document.getElementById("close-alert");
+
+  alertBox.style.display = "block";
+  closeAlert.onclick = function(){
+    alertBox.style.display = "none";
+  };
+}
+
+function validateEverything(){
+  let valid = true;
+  if(!validateFname()){
+    valid = false;
+  }
+  if(!validateMname()){
+    valid = false;
+  }
+  if(!validateLname()){
+    valid = false;
+  }
+  if (!validateDOB()){
+    valid = false;
+  }
+  if (!validateSocial()){
+    valid = false;
+  }
+  if (!validateAddress1()){
+    valid = false;
+  }
+  if (!validateCity()){
+    valid = false;
+  }
+if (!validateZip()){
+    valid = false;
+  }
+  if (!validateEmail()){
+    valid = false;
+  }
+  if (!validatePhoneNumber()){
+    valid = false;
+  }
+  if (!validateUser()){
+    valid = false;
+  }
+  if (!validatePassword1()){
+    valid = false;
+  }
+  if (!confirmConfirmationPassword()){
+    valid = false;
+  }
+  if(valid){
+    document.getElementById("submit").disabled = false;
+  }
+  else{
+    showAlert();
+  }
+}
