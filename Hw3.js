@@ -344,6 +344,7 @@ function showAlert(){
 
 function validateEverything(){
   let valid = true;
+  
   if(!validateFname()){
     valid = false;
   }
