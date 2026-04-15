@@ -133,3 +133,11 @@ td.outputdata{
     justify-content: center;
     display: flex;
 }   
+
+#gif {
+    margin-top: 100px;
+}
+
+.gif {
+    margin-top: 100px;
+}
