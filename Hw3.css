@@ -33,7 +33,7 @@ input[type="range"]{
 #footer{
     margin-top: 600px;
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
 }
 #Thankyou{
