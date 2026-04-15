@@ -32,8 +32,7 @@ input[type="range"]{
 }
 #footer{
     margin-top: 600px;
- 
-   
+
 }
 #Thankyou{
     font-size: 30px;
@@ -140,7 +139,12 @@ td.outputdata{
   
     width: 100px;
     height: 200px;
-   
-   
+
+}
+#footercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
