@@ -32,6 +32,9 @@ input[type="range"]{
 }
 #footer{
     margin-top: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #Thankyou{
     font-size: 30px;
@@ -135,10 +138,10 @@ td.outputdata{
 }   
 
 #gif {
-    margin-top: 800px;
+  
     width: 100px;
-    height: 200;
-    display: flex;
+    height: 200px;
+   
    
 }
 
