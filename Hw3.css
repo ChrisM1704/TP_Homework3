@@ -135,7 +135,10 @@ td.outputdata{
 }   
 
 #gif {
-    margin-top: 600px;
+    margin-top: 800px;
+    width: 100px;
+    height: 200;
+    display: flex;
    
 }
 
