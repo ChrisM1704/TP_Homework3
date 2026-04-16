@@ -139,7 +139,7 @@ td.outputdata{
   
     width: 10px;
     height: 10px;
-
+margin-left: auto;
 }
 #footercontent{
     display: flex;
