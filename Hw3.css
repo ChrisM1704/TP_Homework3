@@ -143,13 +143,13 @@ td.outputdata{
 }
 #footercontent{
     display: flex;
-    flex-direction: column;
-   
+    
+    align-items: center;
     gap: 10px;
 }
 #footerrow{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 10;
 }
 
