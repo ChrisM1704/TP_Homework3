@@ -185,7 +185,7 @@ Decription: This will show a medical page.
   <tr>
 <td class="td1"><label for="phonenum"> Phone Number:</label></td>
         <td>
-<input type="text"  id="PhoneNumber" placeholder="Phone Number" name="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="30" title="Please enter your phone number" onblur="validatePhoneNumber()"required/>
+<input type="text"  id="PhoneNumber" placeholder="Phone Number" name="Phone Number"  maxlength="30" title="Please enter your phone number" onblur="validatePhoneNumber()"required/>
 <span class="error" id="PhoneNumber-error"></span>
         </td>
   </tr>
@@ -310,7 +310,7 @@ Decription: This will show a medical page.
         </td>
         <td>
   <input type="button" name="review" id="review" value="Review" onclick="reviewInput()">
-  <input type="submit"  id="submit" value="Submit">
+  <input type="submit"  id="submit" value="Submit" disabled>
   <input type="button" name="validate" id="validate" value="Validate" style="font-family: inherit;" onclick="validateEverything()">
   
         </td>
