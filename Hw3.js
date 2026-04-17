@@ -384,10 +384,12 @@ if (!validateZip()){
   if (!confirmConfirmationPassword()){
     valid = false;
   }
-  if(valid){
-    document.getElementById("submit").disabled = false;
+  const submitButton = document.getElementById("submit").disabled = false;
+   if(valid){
+    submitButton.disabled = false;
   }
   else{
+    submitButton.disabled = true;
     showAlert();
   }
 }
