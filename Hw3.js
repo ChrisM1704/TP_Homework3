@@ -62,7 +62,7 @@ function validateLname(){
          return false;
     }
 
-      else if (fname != ""){
+      else if (lname != ""){
     if (!lname.match(namePattern)) { // checks if Last name matches the pattern
         document.getElementById("lname-error").innerHTML = "Letters, apostrophes, and dashes only.";
          return false;
