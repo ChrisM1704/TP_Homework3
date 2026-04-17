@@ -41,7 +41,7 @@ function validateMname(){
     return false;
     }
     else {
-        document.getElementById("Mname-error").innerHTMl = "";
+        document.getElementById("Mname-error").innerHTML = "";
         return true;
     }
   }
@@ -258,7 +258,9 @@ errorMessage.push("Enter at least one uppercase letter");
   }
   const errorContainer = document.querySelector(".pass-message");
   errorContainer.innerHTML = errorMessage.map(msg => `<span>${msg}</span><br>`).join("");
- }
+ return errorMessage.length === 0;
+  }
+ 
 
  //Js for confirmation password
  function confirmConfirmationPassword(){
