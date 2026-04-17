@@ -36,13 +36,21 @@ function validateMname(){
     const namePattern = /^[A-Z]$/;
     Mname = Mname.toUpperCase();
     document.getElementById("Mname").value = Mname;
-    if (!Mname.match(namePattern)){
+    
+    if (Mname == "")
+    {
+      
+        document.getElementById("Mname-error").innerHTML = "";
+        return true;
+    }
+    else if (!Mname.match(namePattern)){
         document.getElementById("Mname-error").innerHTML= "Middle initial must be single uppercase letter.";
     return false;
     }
     else {
         document.getElementById("Mname-error").innerHTML = "";
         return true;
+
     }
   }
 
